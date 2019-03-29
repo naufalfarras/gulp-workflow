@@ -1,0 +1,41 @@
+{
+  "name": "web-boilerplate-gulp",
+  "version": "1.0.0",
+  "description": "Boilerplate for Frontend Web Development using SASS and Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naufalfarras/web-boilerplate-gulp.git"
+  },
+  "author": "Naufal Farras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naufalfarras/web-boilerplate-gulp/issues"
+  },
+  "homepage": "https://github.com/naufalfarras/web-boilerplate-gulp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "autoprefixer": "^9.4.7",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.8",
+    "del": "^3.0.0",
+    "fibers": "^3.1.1",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-changed": "^3.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "sass": "^1.16.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
