@@ -17,23 +17,23 @@
   },
   "homepage": "https://github.com/naufalfarras/web-boilerplate-gulp#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
-    "autoprefixer": "^9.4.7",
-    "browser-sync": "^2.26.3",
-    "cssnano": "^4.1.8",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.5",
+    "cssnano": "^4.1.10",
     "del": "^3.0.0",
     "fibers": "^3.1.1",
-    "gulp": "^4.0.0",
-    "gulp-babel": "^8.0.0-beta.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-changed": "^3.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^5.0.3",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.1",
-    "sass": "^1.16.1"
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.20.1"
   },
   "browserslist": [
     "last 2 versions"
