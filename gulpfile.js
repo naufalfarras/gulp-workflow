@@ -16,14 +16,14 @@ const browserSync = require('browser-sync').create();
 // File Path
 const style_source = 'src/scss/**/*.scss';
 const html_source = 'src/*.html';
-const js_source = 'src/js/*.js';
+const js_source = ['src/scripts/vendors/jquery-3.4.1.min.js', 'src/js/*.js'];
 const assets_source = 'src/assets/**/*';
 const fonts_source = 'src/fonts/**/*';
 const style_dest = 'dist/css';
 const html_dest = 'dist';
 const js_dest = 'dist/js';
 const assets_dest = 'dist/assets';
-const fonts_dest = 'dist/fonts';
+const fonts_dest = 'dist/assets/fonts';
 
 // Using Dart Sass
 sass.compiler = require('sass');
@@ -136,7 +136,13 @@ gulp.task('assets', assets);
 gulp.task('fonts', fonts);
 
 // Gulp Default Task
-gulp.task('default', gulp.series('clean', gulp.parallel('css', 'html', 'js', 'assets', 'fonts')));
+gulp.task(
+    'default',
+    gulp.series('clean', gulp.parallel('css', 'html', 'js', 'assets', 'fonts'))
+);
 
 // Watch for File Changes
-gulp.task('watch', gulp.series('default', gulp.parallel(watchFiles, browser_sync)));
+gulp.task(
+    'watch',
+    gulp.series('default', gulp.parallel(watchFiles, browser_sync))
+);
