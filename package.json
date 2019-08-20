@@ -1,44 +1,47 @@
 {
-  "name": "web-boilerplate-gulp",
-  "version": "1.0.0",
-  "description": "Boilerplate for Frontend Web Development using SASS and Gulp",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/naufalfarras/web-boilerplate-gulp.git"
-  },
-  "author": "Naufal Farras",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/naufalfarras/web-boilerplate-gulp/issues"
-  },
-  "homepage": "https://github.com/naufalfarras/web-boilerplate-gulp#readme",
-  "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "autoprefixer": "^9.6.1",
-    "browser-sync": "^2.26.7",
-    "cssnano": "^4.1.10",
-    "del": "^5.0.0",
-    "fibers": "^4.0.1",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-changed": "^4.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^6.1.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2",
-    "sass": "^1.22.10"
-  },
-  "browserslist": [
-    "last 2 versions"
-  ],
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  }
+    "name": "gulp-workflow",
+    "version": "1.0.0",
+    "description": "Boilerplate for Frontend Web Development using SASS and Gulp",
+    "main": "gulpfile.js",
+    "dependencies": {
+        "gulp-changed": "^4.0.1",
+        "gulp-imagemin": "^6.1.0",
+        "sass": "^1.22.10"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "autoprefixer": "^9.6.1",
+        "browser-sync": "^2.26.7",
+        "cssnano": "^4.1.10",
+        "del": "^5.0.0",
+        "fibers": "^4.0.1",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-changed": "^4.0.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-imagemin": "^6.1.0",
+        "gulp-postcss": "^8.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2",
+        "sass": "^1.22.10"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/naufalfarras/gulp-workflow.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/naufalfarras/gulp-workflow/issues"
+    },
+    "homepage": "https://github.com/naufalfarras/gulp-workflow#readme",
+    "browserslist": [
+        "last 2 versions"
+    ]
 }
