@@ -16,7 +16,10 @@ const browserSync = require('browser-sync').create();
 // File Path
 const style_source = 'src/scss/**/*.scss';
 const html_source = 'src/*.html';
-const js_source = ['src/scripts/vendors/jquery-3.4.1.min.js', 'src/js/*.js'];
+const js_source = [
+    'src/scripts/vendors/jquery-3.4.1.min.js',
+    'src/scripts/*.js'
+];
 const assets_source = 'src/assets/**/*';
 const fonts_source = 'src/fonts/**/*';
 const style_dest = 'dist/css';
